@@ -1,0 +1,26 @@
+name: Lint markdown
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  lint-markdown-files:
+    runs-on: ubuntu-latest
+    name: Lint markdown documentation
+    environment:
+      name: main
+    env:
+      NODE_ENV: cli
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Lint docs directory
+        uses: DavidAnson/markdownlint-cli2-action@v14
+        with:
+          globs: "docs/**/*.md,!docs/styleguide.md"
+          separator: ","
+          config: .markdownlint-cli2.cjs
