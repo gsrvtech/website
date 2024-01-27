@@ -12,7 +12,7 @@ copyright: Copyright &copy; 2023 <a href="https://github.com/gOOvER">gOOvER</a>.
 theme:
   name: material
   
-  logo: assets/pteroeggs.jpg
+  #logo: assets/pteroeggs.jpg
 
   locale: en
 
