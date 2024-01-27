@@ -182,7 +182,7 @@ plugins:
   - social:
       cards: true
 
-   - minify:
+  - minify:
       minify_html: true
       minify_js: true
       minify_css: true
