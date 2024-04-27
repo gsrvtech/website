@@ -7,7 +7,7 @@ repo_url: https://github.com/gameservertech/website
 repo_name: Improve this page
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2023 <a href="https://github.com/gOOvER">gOOvER</a>.
+copyright: Copyright &copy; 2023 <a href="https://github.com/gOOvER">gOOvER</a>. - <a href="#__consent">Change cookie settings</a>
 
 theme:
   name: material
@@ -82,7 +82,7 @@ theme:
 
 # Customization
 extra:
-  homepage: https://pteroeg.gs/
+  homepage: https://gameserver.tech/
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/gameservertech
