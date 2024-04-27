@@ -1,9 +1,9 @@
-site_name: goover.dev
-site_url: https://goover.dev/
-site_description: goover.dev website for Pterodactyl/Jexactyl & Moonlight Gameserver Panel
+site_name: gameserver.tech
+site_url: https://gameserver.tech/
+site_description: gameserver.tech website for Pterodactyl/Jexactyl & Moonlight Gameserver Panel
 site_author: gOOvER
 
-repo_url: https://github.com/gOOvER/gooverdev-website
+repo_url: https://github.com/gameservertech/website
 repo_name: Improve this page
 edit_uri: edit/main/docs/
 
@@ -85,7 +85,7 @@ extra:
   homepage: https://pteroeg.gs/
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/pteroeggsx
+      link: https://github.com/gameservertech
     - icon: fontawesome/brands/discord
       link: https://discord.goover.dev
 
