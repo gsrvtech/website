@@ -1,19 +1,17 @@
-site_name: gameserver.tech
-site_url: https://gameserver.tech/
-site_description: gameserver.tech website for Pterodactyl/Jexactyl & Moonlight Gameserver Panel
+site_name: goover.dev
+site_url: https://goover.dev/
+site_description: goover.dev website for Pelican/Pterodactyl & Moonlight Gameserver Panel
 site_author: gOOvER
 
-repo_url: https://github.com/gameservertech/website
+repo_url: https://github.com/gsrvtech/website
 repo_name: Improve this page
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2023 <a href="https://github.com/gOOvER">gOOvER</a>. - <a href="#__consent">Change cookie settings</a>
+copyright: Copyright &copy; 2024 <a href="https://github.com/gOOvER">gOOvER</a>. - <a href="#__consent">Change cookie settings</a>
 
 theme:
   name: material
   
-  #logo: assets/pteroeggs.jpg
-
   locale: en
 
   font:
@@ -82,7 +80,7 @@ theme:
 
 # Customization
 extra:
-  homepage: https://gameserver.tech/
+  homepage: https://goover.dev/
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/gameservertech
