@@ -208,7 +208,6 @@ plugins:
 nav:
   - Home: index.md
   - Eggs: eggs/index.md
-    - Apps: apps/index.md
   - Images: 
     - images/index.md
     - Java Images: images/java/index.md
