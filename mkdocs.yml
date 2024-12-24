@@ -1,6 +1,6 @@
-site_name: goover.dev
-site_url: https://goover.dev/
-site_description: goover.dev website for Pelican/Pterodactyl & Moonlight Gameserver Panel
+site_name: gameserver.tech
+site_url: https://gameserver.tech/
+site_description: gameserver.tech - Egg & Image Collection for Pelican/Pterodactyl Gameserver Panel
 site_author: gOOvER
 
 repo_url: https://github.com/gsrvtech/website
@@ -208,6 +208,7 @@ plugins:
 nav:
   - Home: index.md
   - Eggs: eggs/index.md
+    - Apps: apps/index.md
   - Images: 
     - images/index.md
     - Java Images: images/java/index.md
