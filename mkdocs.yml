@@ -48,6 +48,7 @@ theme:
       - content.action.view
       - content.code.copy
       - content.tabs.link
+      - navigation.footer
       - navigation.indexes
       - navigation.instant
       - navigation.instant.progress
@@ -59,7 +60,7 @@ theme:
       - search.share
       - search.suggest
       - toc.follow
-      - toc.integrate
+      #- toc.integrate
   
   palette:
     - scheme: default
@@ -130,7 +131,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: pteroeggsx
+      user: gsrvtech
       repo: website
   - pymdownx.mark
   - pymdownx.smartsymbols
@@ -159,7 +160,8 @@ plugins:
   - open-in-new-tab
   - autolinks
   - tags
-  - search 
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   
   - blog:
       blog_toc: true
@@ -190,16 +192,6 @@ plugins:
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
-
-  - print-site:
-      add_to_navigation: false
-      add_full_urls: false
-      add_table_of_contents: true
-      toc_title: "Table of Contents"
-      toc_depth: 2
-      enumerate_headings: true
-      enumerate_figures: true
-      add_cover_page: true
 
 # Page tree
 nav:
