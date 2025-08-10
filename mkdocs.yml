@@ -204,4 +204,11 @@ nav:
     - NodeJS: images/nodejs/index.md
   - Scripts: scripts/index.md
   - Support: support.md
-  - License: license.md 
+  - License: 
+    - license/index.md
+    - license/website.md
+    - licence/eggs.md
+    - license/images.md
+  - Blog: blog/index.md
+  - About: about.md 
+  
